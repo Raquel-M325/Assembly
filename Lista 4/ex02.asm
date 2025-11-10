@@ -50,3 +50,8 @@ gaster:
 	addi $2, $0, 10
 	syscall
 	
+#entao, alem de colocar a base i e o n, tem que colocar a condicao do for
+	#depois colocar a operação e repeticao do rotulo para sair da condiçao, 
+	#depois repetir de novo para reiniciar e nao esquecer de subtrair o n ate i
+	#e a soma dele mesmo dos dados - vetores em 4 bytes a mais
+    #sempre se lembre em reiniciar e repetir os dados do vetores 0x1001 e o n que vai estar zerado
