@@ -10,7 +10,7 @@ main:
 	
 	
 laco:	
-        beq $8, $0, mostrar #esse é para comparar se n == 0, ele vai direto mostrar no terminal, senao, vai fazer primeiro
+    beq $8, $0, mostrar #esse é para comparar se n == 0, ele vai direto mostrar no terminal, senao, vai fazer primeiro
       
         
 fazer:
