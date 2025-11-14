@@ -1,6 +1,6 @@
-data.
+.data
 
-text.
+.text
     lui $20, 0x1001
     add $8, $0, 10
 
@@ -169,42 +169,29 @@ prox7:
         add $31, $31, 8
 
 fim: 
-    add $4, $0, $12
-    addi $2, $0, 1   #mostre a maior soma
-    syscall
+    	add $4, $0, $12
+    	addi $2, $0, 1   #mostre a maior soma
+    	syscall
 
-    #posicoes:
-    add $4, $0, $30
-    addi $2, $0, 1
-    syscall
+	addi $4, $0, '\n'
+	add $2, $0, 11
+	syscall
+	
+    	#posicoes
+    	add $4, $0, $30
+    	addi $2, $0, 1
+    	syscall
 
-    add $4, $0, $31
-    addi $2, $0, 1
-    syscall 
+	addi $4, $0, '\n'
+	add $2, $0, 11
+	syscall
+	
+    	add $4, $0, $31
+   	 addi $2, $0, 1
+    	syscall 
 
-    j gaster
+    	j gaster
 
 gaster: addi $2, $0, 10
         syscall
 
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
-       
-            
-
-    
